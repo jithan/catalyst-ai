@@ -107,7 +107,8 @@ body {
 }
 
 .chip {
-  @apply inline-flex items-center rounded-full border border-slate-200 bg-slate-100 px-2.5 py-1 text-[11px] font-semibold text-slate-700;
+   @apply inline-flex items-center rounded-full border border-slate-200 
+  bg-green-100 px-2.5 py-1 text-[11px] font-semibold text-emerald-500;
 }
 
 .tab {
