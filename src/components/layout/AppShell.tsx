@@ -65,7 +65,7 @@ function AppShell() {
           <button type="button" className="underline" onClick={togglePulse}>{pulseOn ? 'Pause' : 'Resume'}</button>
         </div>
         <div className="ml-auto flex items-center gap-3">
-          <div className="text-xs text-slate-500 hidden sm:block">{data.studies.length} studies • <span class="chip">{persona.permissionLabel}</span></div>
+          <div className="text-xs text-slate-500 hidden sm:block">{data.studies.length} studies <span className="chip">{persona.permissionLabel}</span></div>
           <select className="input text-sm" value={persona.id} onChange={handlePersonaChange}>
             {PERSONAS.map((item) => (
               <option key={item.id} value={item.id}>{item.name} — {item.role}</option>
